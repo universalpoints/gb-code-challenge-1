@@ -6,7 +6,7 @@ At some point in the future we'd like to run a contest where we'll buy a billboa
 
 Here's an outline of what your application should do:
 - [ ] Your app should ingest `hotel_billboards_seed.csv` as seed data. It contains a list of images of billboards with accompanying names.
-- [ ] When a user visits the homepage, it should ask them to create an account. After creating an account, a user should be signed in. You do not need to add a separate login page. Auth can be very simple.
+- [ ] When a user visits the homepage, it should ask them to create an account. After creating an account, a user should be signed in. Auth can be very simple. A separate login page and confirmation emails can be added bonuses.
 - [ ] After creating an account, the user should see a list of billboards in rank order along with their photos, names, score, and a way to vote the billboard up or down.
 - [ ] Voting should happen via AJAX. Reordering after voting is not required, but a bonus (i.e. it's fine if reordering only happens on page refresh).
 - [ ] The score for each billboard can be as simple as upvotes minus downvotes.
